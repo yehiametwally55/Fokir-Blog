@@ -1,0 +1,360 @@
+p {
+    color: #555555;
+}
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    position: absolute;
+ }
+ .navbar{
+    width: 100%;
+ }
+ .navbar ul{
+    float: right;
+    padding: 0px 10px;
+    
+ }
+ .navbar li a {
+    font-size: 16px;
+    font-weight: 300;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+.navbar li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Source Sans Pro , sans-serif;
+}
+.test{
+    height: 20vh;
+}
+.head{
+    float: left;
+    color: #ff305b;
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 18px ;
+    text-decoration: none;
+}
+.section1::before {
+    background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.section1{
+    background-image: url(img/slider/slider-01.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+.section1 h3{
+    margin-top: 100px;
+    font-size: 40px;
+    margin-bottom: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+.section1 h1{
+    font-size: 60px;
+    margin-bottom: 60px;
+    color: #ff305b;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+.section1 h4{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+.section2{
+    margin: auto;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.about{
+    width: 50%;
+    position: relative;
+    box-sizing: border-box;
+}
+.about img{
+    width: 40%;
+    border-radius: 5px;
+    float: left;
+    transition: 1s all;
+    overflow: hidden;
+}
+.about img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.about2 {
+    width: 50%;
+    float: right;
+}
+.about2 button{
+    width: 20%;
+    border-radius: 5px;
+    background-color: #ff305b;
+    color: white;
+    float: left;
+    padding: 15px 10px;
+    margin-right: 15px;
+    border-color: transparent;
+}
+.about2 p{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #999999;
+}
+.about2 h2{
+    text-align: left;
+}
+.about-list{
+    display: table;
+}
+.about-list span{
+    color: black;
+    font-weight: 600;
+    font-weight: bold;
+}
+.section2 ul{
+    list-style: outside none none;
+    display: table;
+}
+.section2 li{
+    color: #555555;
+    float: left;
+    width: 40%;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.section2 h2{
+    margin-bottom: 60px;
+}
+.section2 p{
+    margin-bottom: 30px;
+}
+.section3{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: #f1f1f1;
+}
+.section3 h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.item{
+    width: 23%;
+    display: inline-block;
+}
+.section3 p{
+    margin-bottom: 30px;
+}
+.section3 h2{
+    margin-bottom: 10px;
+}
+.section4-img{
+    width: 100%;
+    margin: auto;
+}
+.section4{
+    width: 31.3333%;
+    display: inline-block;
+    margin: auto;
+}
+.section4-img {
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+}
+.section4-header{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.section4-header h2{
+    margin-bottom: 30px;
+}
+.section4-header button{
+    background-color: transparent;
+    border-style: none;
+    border-color: transparent;
+    color: black;
+    width: 23%;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 0;
+}
+.section4 img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.section4 img:hover{
+    opacity: 0.7;
+    
+}
+.section4 h5{
+    margin-bottom: 20px;
+}
+.section4 p{
+    margin-bottom: 20px;
+}
+.section5{
+    width: 100%;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.parts{
+    display: inline-block;
+    width: 24%;
+    padding: 40px;
+}
+.parts h3{
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.parts h5{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.section6{
+    width: 100%;
+    margin: auto;
+    padding: 80px;
+}
+.feedback{
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    background-color: #f1f1f1;
+}
+
+.feedback img{
+    width: 110px;
+    border-radius: 30px;
+    float: left;
+    margin-right: 15px;
+}
+.section6 h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.section6 h3{
+    margin-bottom: 20px;
+
+}
+.section6 p{
+    margin-bottom: 20px;
+}
+.section7{
+    width: 100%;
+    display: inline-block;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+}
+.section7 h2{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.vid{
+    display: inline-block;
+    width: 30%;
+    margin-right: 30px;
+    background-color: #fff;
+    padding: 10px;
+}
+.vid img{
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+.vid h4{
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.vid h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.vid h5{
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.vid p{
+    text-align: left;
+    margin-bottom: 15px;
+    font: 16px;
+}
+.vid iframe{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.section8{
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+#firstName{
+    width: 40%;
+    display: inline-block;
+}
+#email{
+    display: inline-block;
+    width: 40%;
+}
+#Subject{
+    float: left;
+}
+#message{
+    float: left;
+}
+.clear-fix{
+    clear: both;
+}
+
+
+
+
